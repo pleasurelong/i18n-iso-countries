@@ -1,0 +1,5 @@
+build/
+dist/
+**/*.pyc
+.vscode/
+**/i18n_iso_countries.egg-info
