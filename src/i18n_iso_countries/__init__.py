@@ -1,3 +1,5 @@
+
+# -*- coding: utf-8 -*-
 import json
 import os
 
@@ -279,7 +281,7 @@ def get_country_name(code=None, language='en', select='official'):
             f"""language must be one of the avalable options: {", ".join(available_locales)}"""
         )
 
-    with open(os.path.join(__lang_data_path, f"langs/{language}.json")) as json_file:
+    with open(os.path.join(__lang_data_path, f"langs/{language}.json"), encoding="utf-8") as json_file:
         data[language] = json.load(json_file)
 
     if code is None and select ==  'official':
