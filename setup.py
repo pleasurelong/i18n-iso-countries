@@ -9,7 +9,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="i18n-iso-countries",
-    version="0.0.1",
+    version="1.0.0",
     author="Jaxon",
     author_email="jinlong.wang@protonmail.com",
     description="i18n for ISO 3166-1 country codes. We support Alpha-2, Alpha-3 and Numeric codes",
